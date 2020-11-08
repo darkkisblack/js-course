@@ -94,7 +94,7 @@ listTable.addEventListener('click', (e) => {
 function updateTable() {
   const fragment = document.createDocumentFragment();
   let total = 0;
-git 
+ 
   listTable.innerHTML = '';
 
   for (const [name, value] of cookiesMap) {
