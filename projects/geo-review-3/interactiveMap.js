@@ -16,7 +16,8 @@ export default class InteractiveMap {
     return new Promise((resolve) => {
       const ymapsScript = document.createElement('script');
       ymapsScript.src =
-        'https://api-maps.yandex.ru/2.1?apikey=07f32838-78bc-45da-8a16-b72092f3358d&lang=ru_RU';
+        'https://api-maps.yandex.ru/2.1/?apikey=21d320c5-8ba9-4712-8a93-46fe7616e633&lang=ru_RU'
+        type='text/javascript';
       document.body.appendChild(ymapsScript);
       ymapsScript.addEventListener('load', resolve);
     });
